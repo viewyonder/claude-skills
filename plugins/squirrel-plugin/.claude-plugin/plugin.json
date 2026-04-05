@@ -1,0 +1,14 @@
+{
+  "name": "squirrel",
+  "description": "Token optimization audit for Claude Code — score 10 behaviours, take labelled snapshots, and track trends over time.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Viewyonder",
+    "email": "hello@viewyonder.com"
+  },
+  "homepage": "https://github.com/viewyonder/tokensquirrel",
+  "repository": "https://github.com/viewyonder/tokensquirrel",
+  "license": "MIT",
+  "keywords": ["tokens", "cost", "audit", "optimization", "scoring"],
+  "skills": "./skills/"
+}

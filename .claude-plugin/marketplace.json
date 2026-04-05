@@ -1,0 +1,21 @@
+{
+  "name": "Viewyonder Plugins",
+  "description": "Claude Code plugins by Viewyonder — architectural guardrails, token optimization, and more.",
+  "owner": { "name": "Viewyonder", "url": "https://viewyonder.com" },
+  "plugins": [
+    {
+      "name": "coherence",
+      "description": "Architectural guardrails for Claude Code — init wizard, drift detection, architecture review, test runner, and more.",
+      "version": "1.12.1",
+      "source": "./plugins/coherence-plugin",
+      "homepage": "https://coherence.viewyonder.com"
+    },
+    {
+      "name": "squirrel",
+      "description": "Token optimization audit for Claude Code — score 10 behaviours, take labelled snapshots, and track trends over time.",
+      "version": "0.1.0",
+      "source": "./plugins/squirrel-plugin",
+      "homepage": "https://github.com/viewyonder/tokensquirrel"
+    }
+  ]
+}
