@@ -24,8 +24,12 @@ A Claude Code plugin marketplace by [Viewyonder](https://viewyonder.com).
 
 Once installed, plugins are available as slash commands:
 
-- `/coherence:init` — set up architectural guardrails for your project
-- `/coherence:status` — check guardrail status
+- `/coherence` — auto-detect mode (status, drift check, etc.)
+- `/coherence scaffold` — set up architectural guardrails for your project
+- `/coherence plan` — plan review
+- `/coherence fix` — drift check + auto-fix
+- `/coherence version` — guided version bump
+- `/coherence --verbose` — show all items including current
 - `/squirrel` — run a token optimization audit
 - `/squirrel snapshot "end of sprint"` — save a labelled snapshot
 - `/squirrel trend` — view score history
